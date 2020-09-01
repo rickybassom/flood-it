@@ -1,2 +1,3 @@
-g++ -std=gnu++0x -o Boardgame main.cpp Board.cpp Game.cpp MoveNode.cpp Node.cpp
-chmod a+x Boardgame
+g++ -std=gnu++0x -o src/Boardgame src/main.cpp src/Board.cpp src/Game.cpp src/MoveNode.cpp src/Node.cpp
+chmod a+x src/Boardgame
+mv src/Boardgame flood-it

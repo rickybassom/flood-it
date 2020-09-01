@@ -19,8 +19,8 @@ Example game play:
 * `./compile_and_link.sh`
 
 ## Running
-* `./Boardgame` to start a game with a randomly generated board of inputted size.
-* Or `./Boardgame filename.txt` to open a board file. See `example_boards/` for examples.
+* `./flood-it` to start a game with a randomly generated board of inputted size.
+* Or `./flood-it filename.txt` to open a board file. See `example_boards/` for examples.
 
 ## Description of heuristic search solution solver
 
