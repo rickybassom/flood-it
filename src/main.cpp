@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
         int N;
         cout << "Input N for board: "; // Type a number and press enter
         while (!(cin >> N)) {
-            cout << "Error: please enter a integer";
+            cout << "Error: please enter an integer";
 
             cin.clear();
             cin.ignore(123, '\n');
